@@ -13,6 +13,8 @@
     $text = "L'unica cosa migliore di una mucca è un uomo.. a meno che non ti serva il latte, allora è meglio una mucca.";
     //Passare un parametro (query string) nella url chiamato badword con assegnato il valore di una parola scelta da voi, ottenere il suo valore con GET in PHP e sostituire ogni ricorrenza di questa parola, all'interno del testo creato da voi sopra, con tre *.
     $censure = $_GET['badword'];
+    echo var_dump($text);
+    echo var_dump($censure);
     ?>
 
     <!-- Visualizzare a schermo il paragrafo. -->
